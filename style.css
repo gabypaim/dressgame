@@ -1,0 +1,201 @@
+   @charset "UTF-8";
+
+   @font-face {
+    font-family: 'DigitalDisco';
+    src: url(assets/DigitalDisco.ttf) format(truetype);
+   }
+
+   * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+   }
+
+   :root {
+    --cor-principal: #fce2b1;
+    --cor-fundo: linear-gradient(to right, #B4B8FF, #D3D5FF);
+    --cor-border:  #ffb25b;
+   }
+
+   body {
+    background: url(assets/est.gif) no-repeat center;
+    background-size: cover;
+    
+    font-family: DigitalDisco;
+   }
+
+   header {
+    text-align: center;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: rgb(226, 45, 157);
+    
+   }
+
+   main {
+    display: grid;
+    grid-template-columns: auto min(500px, 90vw) auto;
+    
+   }
+
+   #container {
+    background-color: var(--cor-principal);
+    border: 8px solid var(--cor-border);
+    box-shadow: rgba(140, 138, 248, 0.493) 0px 0px 20px 5px;
+    grid-column: 2;
+    display: grid;
+    height: min(85vh, 700px);
+    grid-template-columns: 20px 1fr 2fr 1fr 20px;
+    grid-template-rows: 170px 1fr 1fr 1fr 20px;
+    min-width: 504px;
+   }
+
+   #welcome {
+    position: relative;
+    grid-area: 1/3/2/4;
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+    z-index: 2;
+    top: -15px;
+   }
+
+    .botaoleft img {
+    min-width: 60px;
+   }
+    .botaoright img {
+    min-width: 60px;
+   }
+   
+   .botaoleft {
+    grid-row: 2/5;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+   }
+
+    .botaoleft img {
+        transform: scaleX(-1);
+        
+    }
+    .botaoleft img:hover {
+        transform: scaleX(-1) scale(1.1);
+    }
+    
+   .botaoright {
+    grid-area: 2/4/5/5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-items: center;
+
+   }
+
+   .botaoright img:hover {
+        transform: scale(1.1);
+        
+    }
+
+   #fundo {
+        background-color: white;
+        border: 8px solid var(--cor-border);
+        grid-column: 3/4;
+        grid-row: 2/5;
+        max-height: 482px;
+        max-width: 309px;
+        align-content: center;
+        justify-items: center;
+        padding: 15px;
+        position: relative;
+        
+   }
+
+   #panda{
+        position: absolute;
+        width: 160px;
+        z-index: 0;
+   }
+
+    .character {
+        position: relative;
+        width: 160px;
+        height: 200px;
+    
+    }
+
+    .layer {
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+
+    #hat {
+        z-index: 3;
+    }
+
+   footer {
+    background-color: transparent;
+    text-align: center;
+    color: #2baaff;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+    
+   }
+  
+  @media screen and (max-width: 768px) {
+    
+    main {
+        grid-template-columns:  auto 90vw auto; 
+        margin: 20px;
+    }
+
+    .botaoleft img {
+    min-width: 30px;
+   }
+
+    .botaoright img {
+    min-width: 30px;
+   }
+    
+   #container {
+    grid-template-columns: 10px 1fr 7fr 1fr 10px;
+    grid-template-rows: 170px 1fr 1fr 1fr 20px;
+    min-width: 300px;
+   }
+
+   #welcome  {
+    width: 250px;
+   }
+
+   #fundo {
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+
+   }
+
+   
+   
+   .botaoleft {
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    }
+
+    .botaoright {
+    position: relative;
+    z-index: 2;
+    padding: 5px;
+    }
+  }
+
+ 
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dressgame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Como quer vestir hoje?</header>
+
+    <main>
+        <section id="container">
+
+            
+            
+            <img src="assets/dress.png" alt="" id="welcome">
+
+            <div class="botaoright">
+                <img src="assets/button.png" alt=""  class="button" onclick="nextHat()">
+                <img src="assets/button.png" alt=""  class="button" onclick="nextTshirt()">
+                <img src="assets/button.png" alt=""  class="button" onclick="nextPants()">
+                
+            </div>
+            
+            
+            <div class="botaoleft">
+                <img src="assets/button.png" alt="" class="button" onclick="previousHat()">
+                <img src="assets/button.png" alt="" class="button" onclick="previousTshirt()"> 
+                <img src="assets/button.png" alt="" class="button" onclick="previousPants()">
+                
+            </div>
+                
+            <div id="fundo">
+
+                <div class="character">
+                    <img src="assets/clothes/null.png" alt="" id="hat" class="layer" onclick="previousHat()">
+                    <img src="assets/clothes/null.png" alt="" id="tshirt" class="layer">
+                    <img src="assets/clothes/null.png" alt="" id="pants" class="layer" >
+                    <img src="assets/panda.png" alt="" id="panda">
+                </div>
+            </div>
+
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gaby Paim</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
