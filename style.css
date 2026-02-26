@@ -86,6 +86,7 @@
     }
     .botaoleft img:hover {
         transform: scaleX(-1) scale(1.1);
+        cursor: pointer;
     }
     
    .botaoright {
@@ -100,11 +101,12 @@
 
    .botaoright img:hover {
         transform: scale(1.1);
-        
+        cursor: pointer;
     }
 
    #fundo {
-        background-color: white;
+        background: url(assets/est.gif) no-repeat;
+        background-size: cover;
         border: 8px solid var(--cor-border);
         grid-column: 3/4;
         grid-row: 2/5;
@@ -172,7 +174,7 @@
    }
 
    #welcome  {
-    width: 250px;
+    width: 240px;
    }
 
    #fundo {
@@ -187,13 +189,13 @@
    .botaoleft {
     position: relative;
     z-index: 2;
-    padding: 5px;
+    
     }
 
     .botaoright {
     position: relative;
     z-index: 2;
-    padding: 5px;
+    
     }
   }
 
