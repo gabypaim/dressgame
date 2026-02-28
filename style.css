@@ -105,7 +105,7 @@
     }
 
    #fundo {
-        background: url(assets/est.gif) no-repeat;
+    background: url(assets/est.gif);
         background-size: cover;
         border: 8px solid var(--cor-border);
         grid-column: 3/4;
@@ -115,23 +115,20 @@
         align-content: center;
         justify-items: center;
         padding: 15px;
-        position: relative;
-        
+        position: relative;   
    }
 
    #panda{
         position: absolute;
         width: 160px;
-        z-index: 0;
+        z-index: 1;
    }
 
     .character {
         position: relative;
         width: 160px;
         height: 200px;
-    
     }
-
     .layer {
         position: absolute;
         width: 100%;

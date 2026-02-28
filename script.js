@@ -54,6 +54,26 @@ function previousTshirt() {
 };
 
 function previousPants() {
-    pantsIndex = (pantsIndex - 1 + pants.length) % pants.length; 
-    document.getElementById("pants").src = pants[pantsIndex] || "";
-};
+    pantsIndex--;
+
+    if (pantsIndex < 0) {
+        pantsIndex = pants.length - 1;
+    }
+
+    document.getElementById("pants").src = pants[pantsIndex];
+}
+
+
+const som = document.getElementById('popsom');
+const botoes = document.querySelectorAll('.button');
+
+function tocarSom() {
+    som.currentTime = 0;
+    som.play();
+}
+
+botoes.forEach(botao => {
+    botao.addEventListener('mouseenter', tocarSom);
+    botao.addEventListener('click', tocarSom);
+});
+

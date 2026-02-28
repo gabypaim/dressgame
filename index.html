@@ -36,14 +36,14 @@
             transform: translate(-50%, -50%);
         }
 
-        #button {
+        .button {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, 160%);
         }
 
-        #button:hover {
+        .button:hover {
             transform: translate(-50%, 160%) scale(0.9);
         }
 
@@ -52,8 +52,9 @@
 <body> 
     <div id="container">
     <img src="assets/start.png" alt="" id="bear">
-    <a href="dress.html"><img src="assets/botão.png" alt="" id="button"></a>
+    <a href="dress.html"><img src="assets/botão.png" alt="" class="button"></a>
+    <audio src="assets/pop.wav" id="popsom"></audio>
     </div>
-    
+   <script src="script.js"></script>
 </body>
 </html>
