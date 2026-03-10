@@ -10,7 +10,8 @@ A estética foi inspirada em jogos antigos, como os do **Game Boy Advance**, tra
 
 ##  Inspiração
 
-Esse projeto foi inspirado no trabalho de Nashallery.
+Este projeto foi inspirado no trabalho de Nashallery:
+[https://www.instagram.com/p/DHfJDIJtsYm/]
 
 Usei a ideia como referência, mas toda a implementação foi feita por mim do zero, sem copiar código.
 
