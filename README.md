@@ -18,7 +18,15 @@ A estética foi inspirada em jogos antigos, como os do **Game Boy Advance**, tra
 Este projeto foi inspirado no trabalho de Nashallery:
 [https://www.instagram.com/p/DHfJDIJtsYm/]
 
-Usei a ideia como referência, mas toda a implementação foi feita por mim do zero, sem copiar código.
 
-As artes também foram feitas por mim, com exceção do plano de fundo.
+Usei a ideia do projeto apenas como referência, mas toda a implementação foi desenvolvida por mim do zero, sem copiar código.
 
+A maior parte das artes também foi criada por mim. A única exceção é o plano de fundo utilizado no jogo, que pertence ao seu respectivo autor.
+
+Caso seja necessário, ele pode ser substituído.
+
+## Art assets
+
+As artes utilizadas neste projeto foi criada por mim (Gaby Paim) e não deve ser utilizada comercialmente sem permissão.
+
+O plano de fundo utilizado no jogo não foi criado por mim e pertence ao seu respectivo autor.
