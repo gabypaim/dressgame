@@ -73,7 +73,6 @@ function tocarSom() {
 }
 
 botoes.forEach(botao => {
-    botao.addEventListener('mouseenter', tocarSom);
     botao.addEventListener('click', tocarSom);
 });
 
