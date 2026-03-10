@@ -13,6 +13,10 @@ A estética foi inspirada em jogos antigos, como os do **Game Boy Advance**, tra
 Este projeto foi inspirado no trabalho de Nashallery:
 [https://www.instagram.com/p/DHfJDIJtsYm/]
 
+## Demonstação
+
+![Gameplay do Dress Game](assets/dressgame.gif)
+
 Usei a ideia como referência, mas toda a implementação foi feita por mim do zero, sem copiar código.
 
 As artes também foram feitas por mim, com exceção do plano de fundo.
