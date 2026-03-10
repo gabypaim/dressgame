@@ -16,6 +16,3 @@ Usei a ideia como referência, mas toda a implementação foi feita por mim do z
 
 As artes também foram feitas por mim, com exceção do plano de fundo.
 
-## 👩‍💻 Autora
-
-**Gaby Paim**
