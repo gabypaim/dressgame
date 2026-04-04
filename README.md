@@ -30,6 +30,3 @@ Caso seja necessário, ele pode ser substituído.
 As artes utilizadas neste projeto foi criada por mim (Gaby Paim) e não deve ser utilizada comercialmente sem permissão.
 
 O plano de fundo utilizado no jogo não foi criado por mim e pertence ao seu respectivo autor.
-
-## Acessar
-[Site dressgame](gabypaim.github.io/dressgame/)
